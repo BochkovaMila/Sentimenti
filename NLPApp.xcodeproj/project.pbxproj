@@ -13,6 +13,10 @@
 		3122155C280BF3FC00A4CF03 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3122154A280BF3F200A4CF03 /* ContentView.swift */; };
 		3122155D280BF3FC00A4CF03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3122154B280BF3FB00A4CF03 /* Assets.xcassets */; };
 		3122155E280BF3FC00A4CF03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3122154B280BF3FB00A4CF03 /* Assets.xcassets */; };
+		31348D6D281A6467006958A8 /* SentimentIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31348D6C281A6467006958A8 /* SentimentIdentifier.swift */; };
+		31348D6E281A6467006958A8 /* SentimentIdentifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31348D6C281A6467006958A8 /* SentimentIdentifier.swift */; };
+		31348D73281A7AF4006958A8 /* SentimentClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 31348D72281A7AF4006958A8 /* SentimentClassifier.mlmodel */; };
+		31348D74281A7AF4006958A8 /* SentimentClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 31348D72281A7AF4006958A8 /* SentimentClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +26,8 @@
 		31221550280BF3FC00A4CF03 /* NLPApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NLPApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31221556280BF3FC00A4CF03 /* NLPApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NLPApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		31221558280BF3FC00A4CF03 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		31348D6C281A6467006958A8 /* SentimentIdentifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SentimentIdentifier.swift; sourceTree = "<group>"; };
+		31348D72281A7AF4006958A8 /* SentimentClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = SentimentClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +63,8 @@
 				31221549280BF3F200A4CF03 /* NLPAppApp.swift */,
 				3122154A280BF3F200A4CF03 /* ContentView.swift */,
 				3122154B280BF3FB00A4CF03 /* Assets.xcassets */,
+				31348D6C281A6467006958A8 /* SentimentIdentifier.swift */,
+				31348D72281A7AF4006958A8 /* SentimentClassifier.mlmodel */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -178,6 +186,8 @@
 			files = (
 				3122155B280BF3FC00A4CF03 /* ContentView.swift in Sources */,
 				31221559280BF3FC00A4CF03 /* NLPAppApp.swift in Sources */,
+				31348D6D281A6467006958A8 /* SentimentIdentifier.swift in Sources */,
+				31348D73281A7AF4006958A8 /* SentimentClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -187,6 +197,8 @@
 			files = (
 				3122155C280BF3FC00A4CF03 /* ContentView.swift in Sources */,
 				3122155A280BF3FC00A4CF03 /* NLPAppApp.swift in Sources */,
+				31348D6E281A6467006958A8 /* SentimentIdentifier.swift in Sources */,
+				31348D74281A7AF4006958A8 /* SentimentClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
